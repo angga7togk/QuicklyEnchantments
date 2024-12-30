@@ -1,0 +1,12 @@
+name: QuicklyEnchantments
+main: angga7togk\quicklyenchantments\QuicklyEnchantments
+api: 5.0.0
+version: 1.0.0
+author: Angga7Togk
+description: enchant item in your hand with lots of enchantments quickly
+softdepend: PiggyCustomEnchants
+
+permissions:
+  qe.command:
+    default: op
+    description: Allows player to use quicklyenchantments
