@@ -19,3 +19,7 @@ Use the following command to enchant the item in your hand:
 ```plaintext
 /qe sharpness:1 unbreaking:3 vampire:1 thorns:1
 ```
+
+## 📜 Credits
+
+Icon by [Flaticon](https://www.flaticon.com/)
