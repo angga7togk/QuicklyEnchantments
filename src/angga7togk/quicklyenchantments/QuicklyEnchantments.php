@@ -74,8 +74,8 @@ class QuicklyEnchantments extends PluginBase
       $sender->getInventory()->setItemInHand($item);
       if (count($enchantErrors) > 0) $sender->sendMessage(TextFormat::RED . 'Invalid enchantments: ' . implode(', ', $enchantErrors));
       $sender->sendMessage(TextFormat::GREEN . 'Enchanted item in your hand with ' . count($args) . ' enchantments');
-      return true;
     }
+    return true;
   }
 
   private function getEnchantmentByName(string $enchantName): ?Enchantment
