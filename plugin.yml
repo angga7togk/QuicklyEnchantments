@@ -6,6 +6,13 @@ author: Angga7Togk
 description: enchant item in your hand with lots of enchantments quickly
 softdepend: PiggyCustomEnchants
 
+commands:
+  quicklyenchantments:
+    description: "enchant item in your hand with lots of enchantments quickly"
+    permission: quicklyenchantments.command
+    usage: '/qe <enchantment:level>[]'
+    aliases: [qe, enchants]
+
 permissions:
   quicklyenchantments.command:
     default: op
