@@ -18,7 +18,7 @@ class QECommand extends Command
   public function __construct(private readonly QuicklyEnchantments $plugin)
   {
     parent::__construct('quicklyenchantments', 'enchant item in your hand with lots of enchantments quickly', '/qe <enchantment:level>[]', ['qe', 'enchants']);
-    $this->setPermission('qe.command');
+    $this->setPermission('quicklyenchantments.command');
 
     $this->vanillaEnchantments = VanillaEnchantments::getAll();
   }

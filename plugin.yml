@@ -7,6 +7,6 @@ description: enchant item in your hand with lots of enchantments quickly
 softdepend: PiggyCustomEnchants
 
 permissions:
-  qe.command:
+  quicklyenchantments.command:
     default: op
     description: Allows player to use quicklyenchantments
